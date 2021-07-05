@@ -61,6 +61,7 @@ h3 {
 
 h1 {
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .imges {
@@ -80,9 +81,6 @@ h1 {
   background-size: 100%;
   padding-top: 20px;
 }
-span {
-  line-height: 150%;
-}
 .btn-cta {
   text-decoration: none;
   color: #fff;
@@ -98,9 +96,6 @@ span {
   display: inline-block;
 }
 
-.btn-cta a:hover {
-  background-color: hsl(176, 74%, 85%);
-}
 .hero-text-intro {
   display: inline-block;
 }
@@ -110,7 +105,6 @@ span {
 }
 
 .feature-tiles {
-  margin-top: 70px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -155,6 +149,9 @@ span {
   padding: 20px;
   font-weight: 200;
 }
+.bio-text {
+  margin-left: 20px;
+}
 
 .cta-2 {
   padding-left: 35px;
@@ -166,6 +163,7 @@ span {
   padding-right: 70px;
   border-radius: 30px;
 }
+
 footer {
   background-color: hsl(216, 53%, 9%);
 }
@@ -206,6 +204,17 @@ footer {
 }
 
 @media screen and (min-width: 769px) {
+  .hero-content span {
+    line-height: 150%;
+    width: 450px;
+  }
+  .hero-content h1 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
   .imges {
     width: 600px;
   }
@@ -213,49 +222,77 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
   }
+  .features {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .feature-tiles {
     width: 400px;
     padding: 5px;
-    margin: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
-  .features {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   .productive-tile {
     width: 500px;
     text-align: left;
     margin-top: 100px;
   }
+
   .how-works {
+    flex: auto;
     display: flex;
     flex-wrap: nowrap;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
   }
+
   .testimonies {
-    width: 350px;
+    width: 700px;
+    height: 200px;
+    padding-top: 30px;
   }
   .testimonials {
+    flex: auto;
     display: flex;
     flex-wrap: nowrap;
-    width: 90%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
   }
   .early-access-get {
-    width: 700px;
+    width: 800px;
     height: 300px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
-    box-shadow: 5px 10px 20px;
     text-align: center;
     background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    line-height: 150%;
+    margin-top: 100px;
+  }
+  .early-access-text {
+    width: 400px;
+  }
+  .early-access-get h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .email-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 320px;
+    border-radius: 30px;
+  }
+  .form1 {
+    margin-top: 30px;
   }
 }
