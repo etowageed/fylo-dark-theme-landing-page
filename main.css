@@ -152,22 +152,27 @@ h1 {
 .bio-text {
   margin-left: 20px;
 }
-
-.cta-2 {
-  padding-left: 35px;
-  padding-right: 35px;
-}
-.email-input {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 70px;
-  border-radius: 30px;
+.early-access-get {
+  margin-top: 200px;
+  z-index: 10000;
 }
 
-footer {
+.footer {
   background-color: hsl(216, 53%, 9%);
 }
 @media screen and (max-width: 375px) {
+  .cta-2 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .email-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 10px;
+    border-radius: 30px;
+  }
+
   .hero-content {
     background-color: hsl(217, 28%, 15%);
     background-image: url(images/bg-curvy-mobile.svg);
@@ -277,7 +282,6 @@ footer {
     background-color: hsl(219, 30%, 18%);
     padding: 20px;
     line-height: 150%;
-    margin-top: 100px;
   }
   .early-access-text {
     width: 400px;
@@ -289,7 +293,8 @@ footer {
   .email-input {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 320px;
+    padding-right: 300px;
+    padding-left: 20px;
     border-radius: 30px;
   }
   .form1 {
