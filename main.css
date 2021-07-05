@@ -27,21 +27,25 @@ body {
   height: 50px;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: hsl(217, 28%, 15%);
+  padding-top: 20px;
 }
-
+.nav-list {
+  vertical-align: middle;
+}
 .nav-list li {
   display: inline;
   list-style: none;
   margin-left: 20px;
-  vertical-align: middle;
 }
 
 .nav-list li a {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
+}
+.nav-list a:hover {
+  font-weight: 700;
 }
 .logo {
   width: 100px;
@@ -93,6 +97,10 @@ span {
   margin-top: 20px;
   display: inline-block;
 }
+
+.btn-cta a:hover {
+  background-color: hsl(176, 74%, 85%);
+}
 .hero-text-intro {
   display: inline-block;
 }
@@ -132,10 +140,12 @@ span {
 }
 .profile-pics {
   border-radius: 100px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
-
+.testimonials {
+  margin-bottom: 100px;
+}
 .testimonies {
   border-radius: 10px;
   background-color: hsl(219, 30%, 18%);
@@ -143,7 +153,21 @@ span {
   margin-right: 20px;
   margin-left: 20px;
   padding: 20px;
-  font-weight: 400;
+  font-weight: 200;
+}
+
+.cta-2 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.email-input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 70px;
+  border-radius: 30px;
+}
+footer {
+  background-color: hsl(216, 53%, 9%);
 }
 @media screen and (max-width: 375px) {
   .hero-content {
@@ -160,10 +184,78 @@ span {
   .nav-list li {
     margin-left: 10px;
   }
+
+  .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .early-access-get {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+  }
+  .cta-2 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (min-width: 769px) {
   .imges {
     width: 600px;
+  }
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .feature-tiles {
+    width: 400px;
+    padding: 5px;
+    margin: 50px;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productive-tile {
+    width: 500px;
+    text-align: left;
+    margin-top: 100px;
+  }
+  .how-works {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+  .testimonies {
+    width: 350px;
+  }
+  .testimonials {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .early-access-get {
+    width: 700px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
   }
 }
