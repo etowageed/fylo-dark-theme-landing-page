@@ -228,19 +228,23 @@ h1 {
     padding-right: 50px;
   }
   .features {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    flex: auto;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .feature-tiles {
-    width: 400px;
-    padding: 5px;
-    margin-left: 120px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    width: 25rem;
+    height: 18.3rem;
+    margin: 50px;
+    padding-top: 30px;
   }
 
   .productive-tile {
